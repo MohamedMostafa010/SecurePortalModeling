@@ -100,4 +100,4 @@
   - While we understand the concept of trust boundaries (marking transitions where data moves between components with differing trust levels), we were unsure how to implement and place trust boundaries effectively in the DFD.
   - This resulted in missing some critical visual representations of trust zones in the system. Proper trust boundary placement would have further clarified areas where heightened security controls are needed, such as between external users and internal systems.
   - Moving forward, we plan to explore best practices for trust boundary implementation in future projects.
-  - 
+    
