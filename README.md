@@ -1,11 +1,10 @@
 # University Financial System Threat Modeling and Security Testing
 
 ## Project Description:
-You are working with the cybersecurity team in a software company specializing in building customized software systems tailored to clients' needs. Your role involves conducting security testing and threat modeling for software products throughout the Software Development Lifecycle (SDL), ensuring the production of secure systems.
+- You are working with the cybersecurity team in a software company specializing in building customized software systems tailored to clients' needs. Your role involves conducting security testing and threat modeling for software products throughout the Software Development Lifecycle (SDL), ensuring the production of secure systems.
 
-Your company has received a request from a university in your city to reimplement its financial system with the following requirements:
-
-Web-Based Portal for Students:
+- Your company has received a request from a university in your city to reimplement its financial system with the following requirements:
+  - Web-Based Portal for Students:
 
 The new portal allows students to access the university's financial system.
 Students can view their current balance, payment history, set up payment accounts, make one-time payments, and configure automatic payments.
