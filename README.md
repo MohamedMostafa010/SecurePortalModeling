@@ -27,3 +27,17 @@
   - Generating a detailed threat list to document vulnerabilities and propose security controls.
     
 - This project demonstrates how secure development practices, combined with effective threat modeling, can ensure the protection of sensitive financial data in a university environment.
+
+## Focus on Threat Modeling:
+- In this project, the authentication process using Kerberos was a primary focus of our threat modeling efforts. Given the criticality of securely managing access to the university’s financial system, we analyzed Kerberos-based authentication in depth. While we considered other system components, many processes were summarized under the broader category of “Grant or Access to a Service or Application Server.” However, the Kerberos authentication process received special attention to ensure its robustness against potential threats.
+
+## Project Steps Made:
+- **Data Flow Diagram (DFD):**
+  - The initial DFD was created using an online tool to map data flow and identify system components and processes.
+  - The DFD was then refined and finalized using Microsoft Threat Modeling Tool to improve visualization and alignment with industry standards.
+- **Threat Identification and Mitigation:**
+  - A total of 113 threats were identified during the threat modeling process.
+  - We successfully mitigated 96 of the threats, achieving an 85% threat resolution rate, demonstrating the effectiveness of our mitigation strategies.
+- **Attack Tree Development:**
+  - A single threat was selected to construct an attack tree, which was verified against the MITRE ATT&CK framework.
+  - The attack tree provided a clear, hierarchical representation of potential attack paths and their countermeasures.
