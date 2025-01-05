@@ -39,9 +39,9 @@
 ## Focus on Threat Modeling:
 - In this project, the authentication process using Kerberos was a primary focus of our threat modeling efforts (as shown in the DFD). Given the criticality of securely managing access to the university’s financial system, we analyzed Kerberos-based authentication in depth. While we considered other system components, many processes were summarized under the broader category of “Grant or Access to a Service or Application Server.” However, the Kerberos authentication process received special attention to ensure its robustness against potential threats.
 - The DFD illustrates how data flows between various entities,such as user devices, the Authentication Server (AS), Ticket Granting Service (TGS), and application servers. This broad view ensures that all potential access scenarios are analyzed, identifying critical components, data flows, and potential vulnerabilities across different usage environments.
-- ![Threat Modeling Image 0](/assets/threatmodelignimage0.png)
-- ![Threat Modeling Image 1](/assets/threatmodelignimage1.png)
-- ![Threat Modeling Image 2](/assets/threatmodelignimage2.png)
+- ![Threat Modeling Image 0](/assets/threatmodelingimage0.png)
+- ![Threat Modeling Image 1](/assets/threatmodelingimage1.png)
+- ![Threat Modeling Image 2](/assets/threatmodelingimage2.png)
 
 ## Project Steps Made:
 - **Data Flow Diagram (DFD):**
@@ -67,11 +67,11 @@
   - **Information Disclosure:** Potential exposure of sensitive data.
   - **Denial of Service (DoS):** Service disruption through resource exhaustion.
   - **Elevation of Privilege:** Unauthorized access to high-level functionalities.
-  - ![Sample of Threats List](/assets/threatslistimage.png)
+  ![Sample of Threats List](/assets/threatslistimage.png)
  
 ## Attack Tree:
 - We have made an Attack Tree on the threat of ID number 246. Note that this attack tree is verified by the MITRE ATT&CK framework, I have utilized the MITRE ATT&CK framework extensively while constructing it to ensure accuracy and alignment with real-world tactics and techniques
-- ![Attack Tree Image](/assets/attacktreeimage.png)
+![Attack Tree Image](/assets/attacktreeimage.png)
 ### Discussion of Attack Scenarios:
 - Scenario 1:
   - **Vulnerability:** Misconfigured Database Network Services
